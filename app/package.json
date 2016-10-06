@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "main": "index.html",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
@@ -14,8 +15,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "package": "webpack --config webpack.config.production.js --progress --colors",
-    "deploy": "npm run package"
-
+    "start": "webpack-dev-server --host 0.0.0.0"
   }
 }
