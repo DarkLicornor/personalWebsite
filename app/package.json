@@ -2,19 +2,18 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "main": "index.html",
   "devDependencies": {
-    "react-scripts": "0.6.1"
+    "react-scripts": "0.7.0"
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-router": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "start": "webpack-dev-server --host 0.0.0.0"
+    "eject": "react-scripts eject"
   }
 }
