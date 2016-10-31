@@ -60,6 +60,7 @@ body {
     width: 15%; }
 
 .title {
+  margin-top: 0.5em;
   font-family: 'AmaticSCB';
   font-size: 10em;
   color: white;
@@ -74,6 +75,10 @@ body {
   word-wrap: break-word;
   max-width: 15em; }
 
+.socialButton {
+  width: 8%;
+  padding: 1em; }
+
 .menuNavigation {
   list-style-type: none;
   margin: 0;
@@ -84,6 +89,12 @@ body {
   justify-content: flex-end; }
   .menuNavigation__separator {
     color: #1E9FD0; }
+
+.socialBar {
+  display: block;
+  padding: 0;
+  margin: 1em;
+  text-align: center; }
 
 .home {
   display: flex;

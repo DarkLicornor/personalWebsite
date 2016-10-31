@@ -32,10 +32,12 @@ body {
 @import './atoms/menuCategory';
 @import './atoms/title';
 @import './atoms/subTitle';
+@import './atoms/socialButton';
 
 //molecules
 
 @import './molecules/menuNavigation';
+@import './molecules/socialBar';
 //organisms
 
 @import './organisms/home';
