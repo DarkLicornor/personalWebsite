@@ -1,0 +1,45 @@
+$basicColor: #1E9FD0;
+$basicShadow: #125F7C;
+$buttonText: white;
+
+// $secondColor: rgb(255, 128, 0);
+$secondColor: #ff870e;
+$secondShadow:#cc6600;
+
+$darkGrey: #4d4d4d;
+$lightGrey:#b3b3b3;
+
+@font-face {
+  font-family: 'AmaticSCR';
+  src: url('./fonts/AmaticSC-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'AmaticSCB';
+  src: url('./fonts/AmaticSC-Bold.ttf');
+}
+body {
+  a {
+    text-decoration: none;
+    color: $buttonText;
+  }
+}
+
+
+//atoms
+@import './atoms/button';
+@import './atoms/logo';
+@import './atoms/menuCategory';
+@import './atoms/title';
+@import './atoms/subTitle';
+
+//molecules
+
+@import './molecules/menuNavigation';
+//organisms
+
+@import './organisms/home';
+@import './organisms/header';
+
+//templates
+@import './app'

@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: 'AmaticSCR';
+  src: url("./fonts/AmaticSC-Regular.ttf"); }
+@font-face {
+  font-family: 'AmaticSCB';
+  src: url("./fonts/AmaticSC-Bold.ttf"); }
+body a {
+  text-decoration: none;
+  color: white; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #ECF0F1; }
+
+.button {
+  font-family: 'AmaticSCB';
+  position: relative;
+  padding: 0.5em 1em 1em 1em;
+  border: none;
+  background: #1E9FD0;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  transition: color .3s;
+  /* Typo */
+  line-height: 1em;
+  text-align: center;
+  color: #1E9FD0;
+  font-size: 2em;
+  letter-spacing: 0.05em; }
+
+.button:after {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #125F7C;
+  content: "";
+  z-index: -2;
+  transition: transform .3s; }
+
+.button:hover::after {
+  transform: translateY(-80%);
+  transition: transform .3s; }
+
+.logo {
+  width: 25%; }
+
+.menuCategory {
+  list-style-type: none;
+  font-family: 'AmaticSCB';
+  font-size: 1.5em;
+  margin: 0.5em;
+  text-decoration: underline #1E9FD0 !important; }
+  .menuCategory a {
+    display: block;
+    width: 15%; }
+
+.title {
+  font-family: 'AmaticSCB';
+  font-size: 10em;
+  color: white;
+  text-align: center; }
+
+.subTitle {
+  font-family: 'AmaticSCB';
+  color: #4d4d4d;
+  font-size: 3em;
+  text-align: center;
+  margin-top: -2.5em;
+  word-wrap: break-word;
+  max-width: 15em; }
+
+.menuNavigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; }
+  .menuNavigation__separator {
+    color: #1E9FD0; }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.header {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.app {
+  background-size: cover;
+  background-color: #ff870e;
+  margin: -1em;
+  padding: 0.5em; }
+
+/*# sourceMappingURL=output.css.map */

@@ -1,0 +1,11 @@
+.menuCategory {
+  list-style-type: none;
+  font-family: 'AmaticSCB';
+  font-size: 1.5em;
+  margin: 0.5em;
+  text-decoration: underline $basicColor !important;
+  a {
+    display: block;
+    width: 15%;
+  }
+}
